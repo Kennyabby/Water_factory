@@ -1,0 +1,23 @@
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+}
+.bar{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+    font-weight: bold ;
+}
+.navitem{
+    margin: auto 20px;
+    cursor: pointer;
+}
