@@ -19,15 +19,55 @@
     text-align: center;
     color: white;
 }
+.hoverlaymini{
+    position: absolute;
+    right: auto;
+    top: 50%;
+    width: 65%;
+    height: fit-content;
+    text-align: center;
+    transform: translate(0,-50%);
+}
+
 .hcontent{
-    width: 60%;
     margin: 70px 70px;
     text-align: left;
 }
 .htitle{
-    font-size: 3.1rem;
+    font-size: 3.4rem;
     margin-bottom: 20px;
 }
 .hatt{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+}
+.mcover{
+    position: relative;
+    width: 100vw;
+    min-height: 300px;
+    /* background-color: yellow; */
+}
+.mcoveroverlay{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: fit-content;
+    /* padding: 100px auto; */
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.lm{
+    text-align: left;
+    width: 50%;
+}
+.lmtitle{
+    font-size: 2.3rem;
+}
+.dbl{
+    color: blue;
+}
+.rm{
+    width: 50%;
 }

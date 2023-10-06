@@ -8,13 +8,25 @@ const Home = ()=>{
             <div className='hcover'>
                 <img className='hcoverpic' src ={headerpic} />
                 <div className='hoverlay'>
-                    <div className='hcontent'>
-                        <h1 className='htitle'>Higher Quality Water For You and Your Family</h1>
-                        <h2 className='hatt'>Professional installation and repair of various water-treatment 
-                        related systems, including water softener systems and water filtration systems.</h2>
+                    <div className='hoverlaymini'>
+                        <div className='hcontent'>
+                            <h2>OPEN THE DOOR TO BETTER LIVING</h2>
+                            <h1 className='htitle'>Higher Quality Water For You and Your Family</h1>
+                            <p className='hatt'>Professional installation and repair of various water-treatment 
+                            related systems, including water softener systems and water filtration systems.</p>
 
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div className='mcover'>
+            <div className='mcoveroverlay'>
+                <div className='lm'>
+                    <h1 className='lmtitle'> LIVE BETTER WITH </h1> 
+                    <h1 className='lmtitle dbl'>HIGH QUALITY WATER</h1>
+                </div>
+                <div className='rm'></div>
             </div>
         </div>
     </>
