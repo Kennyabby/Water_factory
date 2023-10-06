@@ -47,7 +47,7 @@
 .mcover{
     position: relative;
     width: 100vw;
-    min-height: 600px;
+    min-height: 800px;
     
 }
 
@@ -57,15 +57,17 @@
     flex-wrap: wrap;
     left: 50%;
     top: 50%;
-    width: 80%;
+    width: 90%;
     height: fit-content;
     /* padding: 100px auto; */
     text-align: center;
     transform: translate(-50%,-50%);
+    justify-content: space-between;
 }
 .lm{
     text-align: left;
     width: 50%;
+    margin-right: auto;
 }
 .lmtitle{
     font-size: 2.3rem;    
@@ -100,5 +102,172 @@
     cursor: pointer;
 }
 .rm{
-    width: 50%;
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.rmsection{
+    display: block;
+}
+.rmicon{
+    font-size: 8rem;
+    color: rgb(60, 157, 222);
+}
+.rmtitle{
+    font-size: 1.8rem;    
+    font-weight: bold;
+    /* color: blue; */
+}
+.rmhatt{
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+/* .pcover{
+    position: relative;
+    width: 100vw;
+    min-height: 1500px;
+} */
+.pcoveroverlay{
+    margin-left: 50%;
+    margin-top: 300px;
+    width: 90vw;
+    margin-top: 150px;
+    height: fit-content;
+    /* padding: 100px auto; */
+    text-align: center;
+    justify-content: center;
+    transform: translate(-50%,0);
+}
+.ptitle{
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+.patt{
+    margin: auto;
+    font-size: 1.7rem;
+    width: 70%;
+}
+.pdiv{
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+}
+
+.pdetails{
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: 70px;
+    width: 350px;
+    min-height: 650px;
+    border-radius: 10px;
+    background-color: rgb(72, 113, 218);
+    color: white;
+    padding: 30px 50px;
+}
+.pdetailsname{
+    font-size: 2.1rem;
+    margin: 10px auto;
+}
+.pdetailsatt{
+    font-size: 1.2rem;
+}
+.pitmespan{
+    display: flex;
+    margin: 35px auto;
+}
+.pitem{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.pbullet{
+    font-size: 2rem;
+}
+.pordbutton{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%,0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin:20px 0px;
+    background-color: white;
+    width: fit-content;
+    color: black;
+    cursor: pointer;
+    margin: 'auto'
+}
+
+.ccover{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-left: 50%;
+    margin-top: 300px;
+    width: 90vw;
+    margin-top: 150px;
+    height: fit-content;
+    /* padding: 100px auto; */
+    text-align: center;
+    justify-content: center;
+    transform: translate(-50%,0);
+}
+
+.lccover{
+    text-align: left;
+    width: 45%;
+    margin-right: auto;
+}
+.lccovertitle{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 10px auto;
+    color: rgb(60, 157, 222);
+}
+.lccoverdesc{
+    font-size: 1.4rem;
+}
+.ccontact{
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 30px 0px;
+}
+.cicon{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: rgb(60, 157, 222);
+}
+.rccover{
+    width: 49%;
+    text-align: left;
+}
+.inputStyle{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 10px 5px;
+}
+.areaStyle{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    height: 200px;  
+    width: 500px;  
+}
+.cformsend{
+    padding: 15px 30px;
+    background-color: rgb(60, 157, 222);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+
 }
