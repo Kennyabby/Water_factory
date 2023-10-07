@@ -1,4 +1,7 @@
 .home{
+    /* font-family: sans-serif; */
+}
+.header{
     width: 100vw;
     margin-top: 55px;
 }
@@ -7,6 +10,7 @@
 }
 .hcoverpic{
     width: 100%;
+    height: 70vw;
 }
 .hoverlay{
     position: absolute;
@@ -34,35 +38,32 @@
     text-align: left;
 }
 .htitle{
-    font-size: 3.4rem;
+    font-size: 3.1rem;
     margin-bottom: 20px;
 }
 .hatt{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 .hbtncontent{
     display: flex;
     gap: 20px;
 }
 .mcover{
-    position: relative;
+    background-color: whitesmoke;
     width: 100vw;
-    min-height: 800px;
-    
+    padding: 100px 0px;
 }
 
+
 .mcoveroverlay{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-wrap: wrap;
-    left: 50%;
-    top: 50%;
+    margin: auto;
     width: 90%;
     height: fit-content;
-    /* padding: 100px auto; */
     text-align: center;
-    transform: translate(-50%,-50%);
-    justify-content: space-between;
+    justify-content: center;
 }
 .lm{
     text-align: left;
@@ -70,20 +71,20 @@
     margin-right: auto;
 }
 .lmtitle{
-    font-size: 2.3rem;    
+    font-size: 1.8rem;    
 }
 .lmhatt{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     margin-top: 20px;
 }
 .dbl{
     color: blue;
 }
 .blbutton{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: bold;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     margin:20px 0px;
     background-color: rgb(33, 99, 232);
     width: fit-content;
@@ -91,10 +92,10 @@
     cursor: pointer;
 }
 .wtbutton{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: bold;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     margin:20px 0px;
     background-color: white;
     width: fit-content;
@@ -112,16 +113,16 @@
     display: block;
 }
 .rmicon{
-    font-size: 8rem;
+    font-size: 6rem;
     color: rgb(60, 157, 222);
 }
 .rmtitle{
-    font-size: 1.8rem;    
+    font-size: 1.5rem;    
     font-weight: bold;
     /* color: blue; */
 }
 .rmhatt{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-top: 20px;
 }
 /* .pcover{
@@ -133,7 +134,7 @@
     margin-left: 50%;
     margin-top: 300px;
     width: 90vw;
-    margin-top: 150px;
+    margin-top: 120px;
     height: fit-content;
     /* padding: 100px auto; */
     text-align: center;
@@ -141,12 +142,13 @@
     transform: translate(-50%,0);
 }
 .ptitle{
-    font-size: 2.7rem;
-    margin-bottom: 20px;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    color: blue;
 }
 .patt{
     margin: auto;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     width: 70%;
 }
 .pdiv{
@@ -154,68 +156,82 @@
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    justify-content: center;
+    justify-content: left;
 }
 
 .pdetails{
     position: relative;
     display: block;
     text-align: left;
-    margin: 70px;
-    width: 350px;
-    min-height: 650px;
+    margin: 70px 0px;
+    width: 550px;
+    min-height: 700px;
     border-radius: 10px;
-    background-color: rgb(72, 113, 218);
-    color: white;
+    /* background-color: rgb(233, 233, 233); */
+    background-color: whitesmoke;
+    color: black;
     padding: 30px 50px;
 }
 .pdetailsname{
-    font-size: 2.1rem;
+    font-size: 2rem;
     margin: 10px auto;
 }
 .pdetailsatt{
     font-size: 1.2rem;
 }
+.pdetailspm{
+    display: flex;
+}
 .pitmespan{
     display: flex;
-    margin: 35px auto;
+    margin: 20px 0px;
 }
 .pitem{
     font-weight: bold;
-    font-size: 1.5rem;
+    color: rgb(60, 157, 222);
+    font-size: 1.4rem;
+}
+.pitemprice{
+    font-size: 2rem;
+    
+}
+.pimg{
+    width: fit-content;
+    font-size: 7rem;
+    margin: 20px 0px;
+    color: rgb(60, 157, 222);
 }
 .pbullet{
     font-size: 2rem;
+    margin-right: 20px;
+    color: rgb(69, 75, 241);
 }
 .pordbutton{
-    position: absolute;
-    left: 50%;
-    bottom: 30px;
-    transform: translate(-50%,0);
-    font-size: 1.2rem;
+    margin: 30px 20px;
+    font-size: 1rem;
     font-weight: bold;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     margin:20px 0px;
-    background-color: white;
+    background-color: rgb(60, 157, 222);
     width: fit-content;
-    color: black;
+    color: white;
     cursor: pointer;
-    margin: 'auto'
 }
-
+.c{
+    margin-top: 150px;
+    background-color: whitesmoke;
+    width: 100vw;
+    padding: 100px 0px;
+}
 .ccover{
     display: flex;
-    /* flex-wrap: wrap; */
-    margin-left: 50%;
-    margin-top: 300px;
-    width: 90vw;
-    margin-top: 150px;
-    height: fit-content;
-    /* padding: 100px auto; */
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90vw;    
+    height: fit-content;   
     text-align: center;
     justify-content: center;
-    transform: translate(-50%,0);
 }
 
 .lccover{
@@ -227,7 +243,7 @@
     font-weight: bold;
     font-size: 1.8rem;
     margin: 10px auto;
-    color: rgb(60, 157, 222);
+    color: rgb(24, 122, 188);
 }
 .lccoverdesc{
     font-size: 1.4rem;
@@ -258,7 +274,7 @@
     font-size: 1.2rem;
     margin: 10px auto;
     height: 200px;  
-    width: 500px;  
+    width: 400px;  
 }
 .cformsend{
     padding: 15px 30px;
@@ -269,5 +285,175 @@
     text-align: center;
     font-size: 1.4rem;
     cursor: pointer;
+}
 
+.ncover{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: left;
+    width: 50%;    
+}
+.nr{
+    width: 50%;
+    margin-right: auto;
+}
+.ntitle{
+    font-size: 2rem;
+    margin: 7px auto;
+    font-weight: bold;
+
+}
+.natt{
+    font-size: 1.2rem;
+}
+
+.nl{
+    width: fit-content;
+    /* margin-left: auto; */
+
+}
+
+.newsmail{
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 15px 30px;
+
+}
+.nbutton{
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: solid lightblue 1px;
+    padding: 10px 25px;
+    /* margin:20px 0px; */
+    background-color: rgb(26, 77, 181);
+    width: fit-content;
+    color: white;
+    cursor: pointer;
+}
+.f{
+    width:100vw;
+    padding: 100px 0px;
+    background-color: rgb(11, 24, 49);
+    color: white;
+}
+.f1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fcover{
+   /* width: 50%; */
+   margin: auto;   
+   display: block;
+   flex-wrap: wrap;
+}
+.fsect{
+    margin:0px 50px;
+}
+.ftitle{
+    padding: 17px auto;
+    /* text-decoration: underline solid whitesmoke 1px; */
+    /* text-decoration: underline whitesmoke; */
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 15px auto;
+}
+.fsocial{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.fatt{
+    font-size: 1.1rem;
+    margin: 10px auto;
+    cursor: pointer;
+    align-items: center;    
+}
+.fl{
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.fl1{
+    width:70%;
+    margin: auto;
+    text-align: center;
+}
+
+@media  screen and (max-width: 700px) {
+    .mcoveroverlay{
+        display: block;
+    }
+    .ncover{
+        margin-bottom: 50px;
+    }
+    .f1{
+        flex-direction: column-reverse;
+    }
+    .ccover{
+        display: block;
+    }
+    .lccover{
+        width: 90%;
+    }
+    .rccover{
+        margin-top: 100px;
+        width: 90%;
+    }
+    .rm{
+        margin-top: 100px;
+        width: 90%;
+    }
+    .lm{
+        width: 90%;
+    }
+    .hcoverpic{
+        height:700px;
+    }
+    .hoverlay{
+       
+        height: 99.5%;
+        
+    }
+    .hoverlaymini{
+        position: absolute;
+        right: auto;
+        top: 50%;
+        width: 90vw;
+        height: fit-content;
+        text-align: center;
+        transform: translate(0,-50%);
+    }
+    
+    .pdetailspm{
+        display: block;
+    }
+    .hcontent{
+        width: fit-content;
+        margin: 20px;
+        text-align: left;
+    }
+    .htitle{
+        font-size: 2.6rem;
+        margin-bottom: 20px;
+    }
+    .hatt{
+        font-size: 1rem;
+    }
+    .hbtncontent{
+        display: flex;
+        gap: 20px;
+    }
+    .blbutton{
+        font-size: 1rem;
+    }
+    .wtbutton{
+        font-size: 1rem;
+    }
 }
