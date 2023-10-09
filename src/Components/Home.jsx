@@ -53,9 +53,14 @@ const Home = ()=>{
         <div className='home'>
             <div className='header'>
                 <div className='hcover'>
-                    <img className='hcoverpic' src ={headerpic} />
-                    <div className='hoverlay'>
-                        <div className='hoverlaymini'>
+                    {/* <img className='hcoverpic' src ={headerpic} /> */}
+                    <div className="hoverlay" style={{
+                            backgroundImage:`url(${headerpic})`,
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundColor: 'rgba(0,0,0,0.5)'
+                        }}>
+                        <div className='hoverlaymini' >
                             <div className='hcontent'>
                                 <h2>OPEN THE DOOR TO BETTER LIVING</h2>
                                 <h1 className='htitle'>Higher Quality Water For You and Your Family</h1>
@@ -77,7 +82,7 @@ const Home = ()=>{
                         <h1 className='lmtitle'> LIVE BETTER WITH </h1> 
                         <h1 className='lmtitle dbl'>HIGH QUALITY WATER</h1>
                         <p className='lmhatt'>Our Mission at Jasmil water is to provide high-quality water to every customers. 
-                            We pride our selves on being responsive, honest, fairly-priced and customer-oriented. Jasmil water means water
+                            We pride our selves on being responsive, honest, fairly-priced and customer-oriented. Jazmyn water means water
                             for you and your family with the added benefit of cost-savings and a positive enviromental impact
                         </p>
                         <div className='blbutton'>Contact Us</div>
@@ -98,9 +103,9 @@ const Home = ()=>{
             </div>
             <div className='pcover'>
                 <div className='pcoveroverlay'>
-                    <h1 className='ptitle'>PRICING TABLE</h1>
-                    <p className='patt'>We offer competitive and flexible pricing options for high-quality water products 
-                    and services to meet various customer needs</p>
+                    {/* <h1 className='ptitle'>PRICING TABLE</h1> */}
+                    <p className='patt'>We Offer Competitive and Flexible Pricing Options For High-Quality Water Products 
+                    and Services to Meet Various Customer Needs</p>
                     <div className='pdiv'>
                         {pricingContent.map((pc)=>{
                             return (
@@ -116,7 +121,7 @@ const Home = ()=>{
                                                         <div className='pitemspan'>
                                                             <BsFillPatchCheckFill className='pbullet'/> <label className='pitem'>{ct.slice(0,ct.indexOf(':'))}</label>
                                                         </div>
-                                                        <div className='pitemprice'>{ct.slice(ct.indexOf(':')+1,)}</div>
+                                                        {/* <div className='pitemprice'>{ct.slice(ct.indexOf(':')+1,)}</div> */}
                                                     </div>                                            
                                                 )
                                             })}
@@ -139,27 +144,26 @@ const Home = ()=>{
                                 usw with any questions or requests
                             </p>
                         </div>
-                        <div>
+                        <div style={{marginTop: '100px'}}>
                             <div className='ccontact'>
-                                <span><MdLocationPin className='cicon'/>  <label> <b>Address:</b> inquiries and look forward to assisting you - please don't hesitate to contact
-                                    us with any questions or </label>
-                                </span>
+                                <div><MdLocationPin className='cicon'/>  <label className='ccontactl'> 4, Aba Road, Rivers, Port Harcourt, Nigeria </label>
+                                </div>
                             </div>
                             <div className='ccontact'>                       
-                                <span><MdEmail className='cicon'/>  <label><b>Email:</b> jasmilcontact@aleedconstruction.com</label></span>
+                                <div><MdEmail className='cicon'/>  <label className='ccontactl'>jasmilcontact@aleedconstruction.com</label></div>
                             </div>
                             <div className='ccontact'>                        
-                                <span><BsTelephoneFill className='cicon'/>  <label><b>Phone:</b> +234 812 298 3412</label> </span>
+                                <div><BsTelephoneFill className='cicon'/>  <label className='ccontactl'>+234 812 298 3412</label> </div>
                             </div>
 
                         </div>
                     </div>
                     <div className='rccover'>
                         <div>
-                            <div className='lccovertitle'>Form</div>
-                            <p className='lccoverdesc'>We welcome your inquiries and look forward to assisting you - please don't hesitate to contact
+                            <div className='lccovertitle'>Fill The Form To Reach Us Instantly</div>
+                            {/* <p className='lccoverdesc'>We welcome your inquiries and look forward to assisting you - please don't hesitate to contact
                                 us with any questions or requests
-                            </p>
+                            </p> */}
                         </div>                
                         <div style={{display: 'flex', margin: '20px auto', flexWrap: 'wrap'}}>
                             <p>
@@ -196,7 +200,7 @@ const Home = ()=>{
                                 <div className='fatt'>{'Terms & Condition'}</div>
                             </div>
                         </div>
-                        <div>
+                        <div style={{marginTop: '50px'}}>
                             <div className='fsect'>
                                 <div className='ftitle'>Contact With Us</div>
                                 <p>Follow us on social media for updates and special offers:</p>
@@ -221,7 +225,7 @@ const Home = ()=>{
                         </div>                
                     </div>
                 </div>
-                <div className='fl'>© 2023 Jasmil</div>
+                <div className='fl'>© 2023 Jazmyn</div>
                 <div className='fl1'>All rights reserved. Unauthorized use or reproduction of any content on this site is prohibited</div>
             </div>
         </div>
