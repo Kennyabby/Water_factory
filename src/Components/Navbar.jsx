@@ -1,5 +1,6 @@
 import {React, useState, useEffect} from 'react'
 import './Navbar.css'
+import logo from '../assets/logo.png'
 import {BiMenuAltLeft} from 'react-icons/bi'
 const Navbar = ()=>{
     const [winSize, setWinSize] = useState(window.innerWidth)
@@ -17,7 +18,7 @@ const Navbar = ()=>{
     <>
         {winSize<=700 && <div className='menu' onClick={handleMenuClick}><BiMenuAltLeft/></div>}            
         <div className= {winSize<=700 ? (menuClicked ? 'nav' : 'mnav') : 'nav'}>
-            <div className='logo'>Jazmyn</div>
+            <img className='logo' src={logo}/>
             {(winSize>700 || menuClicked) ? (   
                 <ul className='bar'>
                     <li className='navitem'>Home</li>

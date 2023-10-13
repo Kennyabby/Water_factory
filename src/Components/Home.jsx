@@ -81,7 +81,7 @@ const Home = ()=>{
                     <div className='lm'>
                         <h1 className='lmtitle'> LIVE BETTER WITH </h1> 
                         <h1 className='lmtitle dbl'>HIGH QUALITY WATER</h1>
-                        <p className='lmhatt'>Our Mission at Jasmil water is to provide high-quality water to every customers. 
+                        <p className='lmhatt'>Our Mission at Jazmyn water is to provide high-quality water to every customers. 
                             We pride our selves on being responsive, honest, fairly-priced and customer-oriented. Jazmyn water means water
                             for you and your family with the added benefit of cost-savings and a positive enviromental impact
                         </p>
@@ -139,18 +139,21 @@ const Home = ()=>{
                 <div className='ccover'>
                     <div className='lccover'>
                         <div>
-                            <div className='lccovertitle'>Contact Us</div>
                             <p className='lccoverdesc'>We welcome your inquiries and look forward to assisting you - please don't hesitate to contact
                                 usw with any questions or requests
                             </p>
+                            <div className='lccovertitle'>Contact Us</div>
                         </div>
-                        <div style={{marginTop: '100px'}}>
+                        <div>
                             <div className='ccontact'>
                                 <div><MdLocationPin className='cicon'/>  <label className='ccontactl'> 4, Aba Road, Rivers, Port Harcourt, Nigeria </label>
                                 </div>
                             </div>
                             <div className='ccontact'>                       
-                                <div><MdEmail className='cicon'/>  <label className='ccontactl'>jasmilcontact@aleedconstruction.com</label></div>
+                                <div>
+                                    <MdEmail className='cicon'/>  
+                                    <label className='ccontactl'>{'jazmyneng@aleedconstruction.com'}</label>
+                                </div>
                             </div>
                             <div className='ccontact'>                        
                                 <div><BsTelephoneFill className='cicon'/>  <label className='ccontactl'>+234 812 298 3412</label> </div>

@@ -1,15 +1,40 @@
+@font-face {
+    font-family: "LibreBaskervilleBold";
+    src: url("../../fonts/Libre_Baskeerville/LibreBaskerville-Bold.ttf");
+    src: url("../../fonts/Libre_Baskeerville/LibreBaskerville-Bold.ttf") format("tff"),
+    url("../../fonts/Libre_Baskeerville/LibreBaskerville-Bold.ttf") format("opentype"),
+}
+@font-face {
+    font-family: "LibreBaskervilleRegular";
+    src: url("../../fonts/Libre_Baskeerville/LibreBaskerville-Regular.ttf");
+    src: url("../../fonts/Libre_Baskeerville/LibreBaskerville-Regular.ttf") format("tff"),
+    url("../../fonts/Libre_Baskeerville/LibreBaskerville-Regular.ttf") format("opentype"),
+}
+@font-face {
+    font-family: "InterBold";
+    src: url("../../fonts/Inter/Inter-Bold.ttf");
+    src: url("../../fonts/Inter/Inter-Bold.ttf") format("tff"),
+    url("../../fonts/Inter/Inter-Bold.ttf") format("opentype"),
+}
+@font-face {
+    font-family: "InterRegular";
+    src: url("../../fonts/Inter/Inter-Regular.ttf");
+    src: url("../../fonts/Inter/Inter-Regular.ttf") format("tff"),
+    url("../../fonts/Inter/Inter-Regular.ttf") format("opentype"),
+}
+
 .home{
-    /* font-family: sans-serif; */
+    font-family: 'LibreBaskervilleRegular';
 }
 .header{
     width: 100vw;
-    margin-top: 55px;
+    /* margin-top: 55px; */
 }
 .hcover{
     position: relative;
 }
 .hoverlay{
-    margin-top: 70px;
+    /* margin-top: 70px; */
     width: 100%;    
     z-index: 1;
     text-align: center;
@@ -18,14 +43,14 @@
 .hoverlaymini{
     background-color: rgba(0,0,0,0.5);
     height: fit-content;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 100px;
     width: 100%;
     text-align: center;
 }
 
 .hcontent{
-    width: 70vw;
+    width: 60vw;
     margin: auto 100px;
     margin-left: 5%;
     text-align: left;
@@ -33,6 +58,7 @@
 .htitle{
     font-size: 3.7rem;
     margin-bottom: 20px;
+    font-family:'LibreBaskervilleBold';
 }
 .hatt{
     font-size: 1.5rem;
@@ -65,6 +91,7 @@
 }
 .lmtitle{
     font-size: 1.8rem;    
+    font-family:'LibreBaskervilleBold';
 }
 .lmhatt{
     font-size: 1.3rem;
@@ -75,7 +102,7 @@
 }
 .blbutton{
     font-size: 1.1rem;
-    font-weight: bold;
+    font-family: 'InterBold';
     border-radius: 25px;
     padding: 15px 30px;
     margin:20px 0px;
@@ -86,7 +113,7 @@
 }
 .wtbutton{
     font-size: 1.1rem;
-    font-weight: bold;
+    font-family: 'InterBold';
     border-radius: 25px;
     padding: 15px 30px;
     margin:20px 0px;
@@ -111,8 +138,7 @@
 }
 .rmtitle{
     font-size: 1.5rem;    
-    font-weight: bold;
-    /* color: blue; */
+    font-family:'LibreBaskervilleBold';
 }
 .rmhatt{
     font-size: 1.2rem;
@@ -133,12 +159,12 @@
 .ptitle{
     font-size: 2.2rem;
     margin-bottom: 5px;
-    color: blue;
+    color: blue;    
 }
 .patt{
     margin: auto;
     font-size: 1.8rem;
-    font-weight: bold;
+    font-family:'LibreBaskervilleBold';
     width: 80%;
 }
 .pdiv{
@@ -166,6 +192,7 @@
 .pdetailsname{
     font-size: 2rem;
     margin: 10px auto;
+    font-family:'LibreBaskervilleBold';
 }
 .pdetailsatt{
     font-size: 1.2rem;
@@ -202,7 +229,7 @@
 .pordbutton{
     margin: 30px 20px;
     font-size: 1rem;
-    font-weight: bold;
+    font-family: 'InterBold';
     border-radius: 25px;
     padding: 15px 30px;
     margin:0px;
@@ -226,6 +253,7 @@
     height: fit-content;   
     text-align: center;
     justify-content: center;
+    font-family: 'InterRegular';
 }
 
 .lccover{
@@ -234,13 +262,15 @@
     margin-right: auto;
 }
 .lccovertitle{
-    font-weight: bold;
-    font-size: 1.8rem;
+    font-family:'LibreBaskervilleBold';
+    font-size: 1.7rem;
     margin: 10px auto;
+    margin-top: 50px;
     color: white;
 }
 .lccoverdesc{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-family: 'InterBold';
 }
 .ccontact{
     align-items: center;
@@ -251,9 +281,13 @@
     font-size: 2.2rem;
     margin-right: 10px;
     color: white;
+    padding: 5px;
+    border-radius: 50%;
+    border: solid whitesmoke 1px;    
 }
 .ccontactl{
     font-size: 1.4rem;
+    width: min-content;
 }
 .rccover{
     width: 49%;
@@ -284,6 +318,7 @@
     text-align: center;
     font-size: 1.4rem;
     cursor: pointer;
+    font-family:'InterBold';
 }
 
 .ncover{
@@ -300,7 +335,7 @@
 .ntitle{
     font-size: 2rem;
     margin: 7px 0px;
-    font-weight: bold;
+    font-family: 'InterBold';
 
 }
 .natt{
@@ -322,7 +357,7 @@
 }
 .nbutton{
     font-size: 1rem;
-    font-weight: bold;
+    font-family: 'InterBold';
     border-radius: 25px;
     border: solid lightblue 1px;
     padding: 10px 25px;
@@ -335,8 +370,10 @@
 .f{
     width:100vw;
     padding: 100px 0px;
+    padding-bottom: 20px;
     background-color: rgb(11, 24, 49);
     color: white;
+    font-family: 'InterRegular';
 }
 .f1{    
     flex-grow: 1;
@@ -358,6 +395,7 @@
     /* text-decoration: underline solid whitesmoke 1px; */
     /* text-decoration: underline whitesmoke; */
     font-size: 1.3rem;
+    font-family: 'InterBold';
     font-weight: bold;
     margin: 15px auto;
 }
@@ -378,7 +416,7 @@
     margin: auto;
     margin-top: 100px;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-family: 'InterBold';
 }
 .fl1{
     width:70%;
@@ -430,6 +468,11 @@
     .cformsend{
         width: 90%;
     }
+    .lccoverdesc{
+        font-size: 1.4rem;
+        margin-bottom: 100px;
+        width: 95vw;
+    }
     .rm{
         margin: auto;
         margin-top: 100px;
@@ -470,7 +513,7 @@
         margin-top: 0px;
     }
     .hoverlaymini{
-       
+       padding-top: 100px;
         padding-bottom: 20px;
         width: 100%;
         text-align: center;

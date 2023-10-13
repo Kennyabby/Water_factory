@@ -6,11 +6,13 @@
     height: 60px;
     padding: 10px;
     display:flex;
-    background-color: white;
+    color: white;    
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     z-index: 3;
+    background-color: rgba(0,0,0,0.2);
+    /* font-family: inter; */
 }
 .bar{
     display: flex;
@@ -22,6 +24,7 @@
 .navitem{
     margin: auto 30px;
     cursor: pointer;
+    font-family: 'InterBold';
 }
 .menu{
     position: fixed;
@@ -35,10 +38,11 @@
 }
 .logo{
     position: fixed;
-    font-family: monospace;
-    top:10px;
+    font-family:'LibreBaskervilleBold';
+    top:0px;
     left: 5%;
-    font-size: 2rem;
+    font-size: 1rem;
+    width:95px;
     font-weight: bold;
     color: rgb(60, 157, 222);
     z-index: 4;
@@ -47,10 +51,12 @@
 @media  screen and (max-width: 700px) {
     .nav{
         width:100vw;
-        height: fit-content;
+        height: 85vh;
         padding: 10px;
         display:block;
         text-align: left;        
+        color: black;
+        background-color: rgba(255,255,255,1);
     }
     .mnav{
         position: fixed;
@@ -60,19 +66,20 @@
         height: 50px;
         padding: 10px;
         z-index: 5;
-        background-color: rgba(255,255,255,0.2);
+        /* background-color: rgba(255,255,255,0.2); */
     }
     .bar{
         padding-top: 50px;
         display: block;
+        margin: 20px;
     }
     .navitem{        
-        font-size: 1.4rem;
-        margin: 30px auto;
+        font-size: 1.7rem;
+        margin: 60px 10px;
         cursor: pointer;
     }
     .logo{
-        left: 20px;
-        color: black;
+        left: 5px;
+        color: rgb(60, 157, 222);
     }
 }
